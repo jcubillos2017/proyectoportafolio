@@ -1,3 +1,15 @@
-
-        }
-    }
+.containerFlex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+}
+.responsive{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
